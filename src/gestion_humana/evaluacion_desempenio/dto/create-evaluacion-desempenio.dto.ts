@@ -3,5 +3,5 @@ export class CreateEvaluacionDesempenioDto {
   id_evaluador: number;
   id_evaluado: number;
   id_enfoque_evaluacion: number;
-  id_adn: number;
+  observaciones?: string;
 }

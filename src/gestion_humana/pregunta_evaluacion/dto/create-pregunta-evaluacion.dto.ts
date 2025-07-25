@@ -3,4 +3,5 @@ export class CreatePreguntaDto {
   pregunta: string;
   calificacion: string;
   fecha: Date;
+  id_adn: number;
 }

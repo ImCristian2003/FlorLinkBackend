@@ -16,4 +16,7 @@ export class PreguntaEvaluacion {
 
   @Column({ type: 'timestamp' })
   fecha: Date;
+
+  @Column({ type: 'int' })
+  id_adn: number;
 }

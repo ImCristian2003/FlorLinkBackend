@@ -17,6 +17,6 @@ export class EvaluacionDesempenio {
   @Column({ type: 'int' })
   id_enfoque_evaluacion: number;
 
-  @Column({ type: 'int' })
-  id_adn: number;
+  @Column({ type: 'text', nullable: true })
+  observaciones: string;
 }
