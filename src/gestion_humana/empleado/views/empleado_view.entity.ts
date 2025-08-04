@@ -90,5 +90,8 @@ export class EmpleadoView {
   es_jefe: boolean;
 
   @ViewColumn()
+  tipo_contrato: string;
+
+  @ViewColumn()
   estado_empleado: string;
 }

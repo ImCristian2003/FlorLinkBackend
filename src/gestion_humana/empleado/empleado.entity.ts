@@ -79,4 +79,7 @@ export class Empleado {
 
   @Column({ length: 8, nullable: true })
   estado_empleado: string;
+
+  @Column({ type: 'int' })
+  id_tipo_contrato: number;
 }
