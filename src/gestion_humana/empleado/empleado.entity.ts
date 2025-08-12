@@ -82,4 +82,7 @@ export class Empleado {
 
   @Column({ type: 'int' })
   id_tipo_contrato: number;
+
+  @Column({ type: 'int' })
+  id_jefe: number;
 }

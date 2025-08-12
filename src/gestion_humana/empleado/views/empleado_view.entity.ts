@@ -87,6 +87,9 @@ export class EmpleadoView {
   medio_transporte: string;
 
   @ViewColumn()
+  cedula_jefe: number;
+
+  @ViewColumn()
   es_jefe: boolean;
 
   @ViewColumn()
