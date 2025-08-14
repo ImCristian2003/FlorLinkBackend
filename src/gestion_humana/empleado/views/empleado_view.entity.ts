@@ -90,6 +90,12 @@ export class EmpleadoView {
   cedula_jefe: number;
 
   @ViewColumn()
+  nombre_jefe: string;
+
+  @ViewColumn()
+  correo_jefe: string;
+
+  @ViewColumn()
   es_jefe: boolean;
 
   @ViewColumn()
