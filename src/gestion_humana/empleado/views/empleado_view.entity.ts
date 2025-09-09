@@ -21,6 +21,9 @@ export class EmpleadoView {
   apellidos: string;
 
   @ViewColumn()
+  nickname: string;
+
+  @ViewColumn()
   ciudad_residencia: string;
 
   @ViewColumn()
@@ -58,6 +61,9 @@ export class EmpleadoView {
 
   @ViewColumn()
   sexo: string;
+
+  @ViewColumn()
+  tratamiento: string;
 
   @ViewColumn()
   eps: string;

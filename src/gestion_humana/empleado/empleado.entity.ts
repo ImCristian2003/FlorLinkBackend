@@ -85,4 +85,7 @@ export class Empleado {
 
   @Column({ type: 'int' })
   id_jefe: number;
+
+  @Column({ length: 50 })
+  nickname: string;
 }
