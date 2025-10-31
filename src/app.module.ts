@@ -34,6 +34,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { EmpleadoModule } from './gestion_humana/empleado/empleado.module';
 import { EvaluacionDesempenioModule } from './gestion_humana/evaluacion_desempenio/evaluacion_desempenio.module';
 import { PreguntaEvaluacionModule } from './gestion_humana/pregunta_evaluacion/pregunta_evaluacion.module';
+import { OrdenCompraModule } from './compras/orden_compra/orden_compra.module';
+import { DetalleCompraModule } from './compras/detalle_compra/detalle_compra.module';
+import { CategoriaModule } from './tablas_basicas/categoria/categoria.module';
+import { UsersModule } from './users/users.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -54,6 +59,11 @@ import { PreguntaEvaluacionModule } from './gestion_humana/pregunta_evaluacion/p
     EmpleadoModule,
     EvaluacionDesempenioModule,
     PreguntaEvaluacionModule,
+    OrdenCompraModule,
+    DetalleCompraModule,
+    CategoriaModule,
+    UsersModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService /*, CalidadEsquejesService*/],

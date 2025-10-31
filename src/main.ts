@@ -10,9 +10,7 @@ async function bootstrap() {
 
   // Habilitar CORS para permitir solicitudes desde el frontend
   app.enableCors({
-    origin: [
-      'https://florlinkwebsite.onrender.com' /*, 'http://localhost:5173'*/,
-    ], // <-- solo tu frontend de desarrollo
+    origin: ['https://florlinkwebsite.onrender.com', 'http://localhost:5173'],
     //credentials: true, // si vas a usar cookies, tokens, etc.
   });
 

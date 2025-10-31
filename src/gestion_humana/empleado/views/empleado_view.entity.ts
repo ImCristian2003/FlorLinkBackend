@@ -105,6 +105,21 @@ export class EmpleadoView {
   es_jefe: boolean;
 
   @ViewColumn()
+  id_usuario: number | null;
+
+  @ViewColumn()
+  id_jefe_grupo_colaborativo: number | null;
+
+  @ViewColumn()
+  jefe_grupo_colaborativo: string | null;
+
+  @ViewColumn()
+  id_grupo_colaborativo: number | null;
+
+  @ViewColumn()
+  nombre_grupo_colaborativo: string | null;
+
+  @ViewColumn()
   tipo_contrato: string;
 
   @ViewColumn()
